@@ -1,0 +1,44 @@
+{
+    "name": "Speed-Run-Evolved",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage" : {
+            "$className": "ReplicatedStorage",
+            "Source" : {
+                "$path": "src/ReplicatedStorage"
+            },
+            "Packages" : {
+                "$path": "Packages"
+            }
+        },
+
+        "ServerStorage" : {
+            "$className": "ServerStorage",
+            "Source" : {
+                "$path": "src/ServerStorage"
+            }
+            
+        },
+
+        "ServerScriptService" : {
+            "$className": "ServerScriptService",
+            "Source" : {
+                "$path": "src/ServerScriptService"
+            }
+            
+        },
+
+        "StarterPlayer" : {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts" : {
+                "$className": "StarterPlayerScripts",
+                "Source" : {
+                    "$path": "src/StarterPlayerScripts"
+                }
+                
+            }
+        }
+
+    }
+}
